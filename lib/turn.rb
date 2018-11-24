@@ -12,7 +12,7 @@ def position_taken?(board, position)
   else
   	true
   end
-end 
+end
 
 def valid_move?(board, position)
  	spot = position.to_i - 1
