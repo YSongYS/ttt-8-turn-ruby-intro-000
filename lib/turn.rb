@@ -8,7 +8,7 @@ end
 
 def valid_move?(board, position)
  	position_taken = position.to_i - 1
-  if board[position_taken] == " " || board[position_taken] == "" || board[position_taken] == nil
+  if board[position_taken] == " "
     true
   else
     false
